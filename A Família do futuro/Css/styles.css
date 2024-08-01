@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  background-color: transparent;
+  color: #fff;
+}
+
+@media screen and (max-width: 1300px) {
+  h3 {
+    min-height: 100%;
+    min-width: 400px;
+    font-size: 16px;
+  }
+}
+
+body {
+  background-image: url(../img/meet-the-robinsons-02.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+/* Cabeçalho */
+.titulo {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.principal {
+  height: 75px;
+  width: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #4691f3;
+  display: flex; /* deixa o conteúdo em linha*/
+  /*deixa o conteúdo ao meio, mas na parte superior*/
+  align-items: center; /* alinha  o conteúdo ao centro */
+  justify-content: space-between;
+}
+
+.principal .caixa1 {
+  border-radius: 5px;
+  margin-right: 15px;
+  background-color: white;
+  width: 60px;
+}
+
+/*estrutura corpo*/
+.container {
+  display: flex;
+  height: 75px;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.video {
+  display: flex;
+  margin-top: 600px;
+  margin-right: 15px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.sinopse {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  color: white;
+  margin-top: 200px;
+  margin-right: 400px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+}
+
+/* Rodapé */
+
+.Rodapé ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 500px;
+  color: white;
+  font-size: 19px;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  color: yellow;
+}
+
+.Rodapé .play {
+  background-color: #4691f3;
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.Rodapé .dublado {
+  background-color: #4691f3;
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.Rodapé .Legendado {
+  background-color: #4691f3;
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 50px;
+}
